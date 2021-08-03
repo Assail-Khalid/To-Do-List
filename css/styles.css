@@ -1,0 +1,110 @@
+* {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: #21242d;
+  color: #fff;
+}
+
+h1,
+h2 {
+  text-align: center;
+  font-size: 4rem;
+  padding: 50px;
+}
+h1 {
+  background-image: linear-gradient(
+    to bottom,
+    #b8b8cc23,
+    rgba(9, 8, 17, 0.075)
+  );
+}
+.task {
+  border: 2px solid #c4c4c4;
+  margin: 30px auto;
+  width: 70vw;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  background: #3b404b;
+
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-bottom: 3px solid rgba(211, 208, 208, 0.514);
+}
+p {
+  font-size: 22px;
+}
+.icon {
+  font-size: 25px;
+}
+.icon:hover {
+  font-size: 27px;
+  transition: 0.2s;
+  cursor: pointer;
+}
+.icon-star,
+.icon-trash-o {
+  opacity: 0.4;
+}
+.icon-check:hover {
+  color: #bf87f7;
+}
+.icon-star:hover {
+  opacity: 1;
+  color: #ffcc67;
+}
+.icon-trash-o:hover {
+  color: #ff8082;
+  opacity: 1;
+}
+h2 {
+  margin-top: 90px;
+  margin-bottom: 40px;
+  font-size: 40px;
+}
+form {
+  text-align: center;
+}
+
+input {
+  padding: 20px 60px;
+  border-radius: 6px;
+  width: 35vw;
+  font-style: 20px;
+  text-align: center;
+}
+
+button {
+  all: unset;
+}
+.icon-plus {
+  font-size: 40px;
+  position: relative;
+  margin-left: 17px;
+  top: 13px;
+  color: #7e7e7e;
+  opacity: 0.4;
+}
+.icon-plus:hover {
+  font-size: 44px;
+  transition: 0.2s;
+  color: #bdcdee;
+}
+/* for javascipt */
+.dn {
+  display: none;
+}
+
+.done {
+  text-decoration-line: line-through;
+}
+
+.star {
+  opacity: 1;
+  color: #ffcc67;
+}
